@@ -9,11 +9,15 @@ a {
     font-weight: 600;
     font-family: sans-serif;
 }
+
+.navbar{
+    margin-top: 40px;
+}
 .container{
     margin-bottom: 60px;
 }
 .hero{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .hero h1 {
     
@@ -62,7 +66,15 @@ img {
     padding: 10px;
     margin-right: 40px;
     }
+.hero img{
+    width:40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+    margin-top: 30px;
 
+    }
     .side-img img {
         position: absolute;
         left: -20px;
@@ -72,9 +84,10 @@ img {
         height: auto;
     }
     .side2-img img {
+        width:15%;
         position: absolute;
         right: -20px;
-        top: 1300px;
+        top: 1250px;
    
     }
 
