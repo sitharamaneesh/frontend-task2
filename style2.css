@@ -1,8 +1,3 @@
-ul{
-    margin-right:20px;
-    list-style: none;
-}
-
 
 
 body {
@@ -18,9 +13,7 @@ body {
     font-family: sans-serif;
 }
 
-.navbar{
-    margin-top: 40px;
-}
+
 
 section{
     margin-bottom: 150px;
@@ -72,12 +65,11 @@ img {
     font-size: 14px;
     letter-spacing: 0px;
     line-height: 16px;
-    color: #ffffff;
     font-weight: 600;
     font-family: sans-serif;
     border-radius: 20px;
-    padding: 10px;
-    margin-right: 40px;
+    
+   
     }
 
     .side-img img {
@@ -108,9 +100,7 @@ img {
         font-weight: bold;
     }
 
-    .service{
-        margin-top: 150px;
-    }
+ 
    .service-txt .service-btn{
     font-size: 15px;
     letter-spacing: 0px;
@@ -119,7 +109,7 @@ img {
     font-family: sans-serif;
     border-radius: 20px;
     padding: 10px;
-    text-align: center;
+    
 }
 
 .service-txt h2{
@@ -129,7 +119,7 @@ img {
     color: #314584;
     font-weight: 600;
     font-family: sans-serif;
-    text-align: left;
+   
 }
 .service-box{
     background-color: white;
@@ -138,9 +128,7 @@ img {
     min-height: 300px;
 
 }
-.service-box img{
-align-content: center;
-}
+
 .service-box h3{
     font-size: 27px;
     letter-spacing: 0px;
@@ -149,7 +137,7 @@ align-content: center;
     font-weight: 600;
     font-family: sans-serif;
 }
-.service-box p{
+.service p{
     width: 200px;
     height: 98px;
     font-size: 14px;
@@ -178,8 +166,6 @@ font-family: sans-serif;
 }
 
 .about p{
-   
-
 font-size: 18px;
 letter-spacing: 0px;
 line-height: 30px;
@@ -198,26 +184,23 @@ font-weight: 600;
 font-family: sans-serif;
 }
 
-.work .more {
+.work .more ,a{
 font-size: 18px;
 letter-spacing: 0px;
 line-height: 21px;
 color: #ff3946;
 font-weight: 600;
 font-family:sans-serif;
-text-align: center;
-margin-top: 20px;
+
 }
 
 .work-box{
     margin:20px;
 }
 
-.blog .row{
-    margin-bottom: 20px;
-}
+
 .blog h5{
-    font-size: 18px;
+font-size: 18px;
 letter-spacing: 0px;
 line-height: 21px;
 color: #ff3946;
@@ -239,8 +222,7 @@ font-family:sans-serif;
    
 }
 .blog .blog-box{
-    padding: 50px 25px;
-
+padding: 50px 25px;
 filter: drop-shadow(0px 5px 5px rgba(25,45,51,0.15));
 background-color: #ffffff;
     
@@ -272,7 +254,7 @@ font-family:sans-serif;
 }
 
 .contact h5{
-    font-size: 18px;
+font-size: 18px;
 letter-spacing: 0px;
 line-height: 21px;
 color: #ff3946;
@@ -280,7 +262,7 @@ font-weight: 600;
 font-family:sans-serif;
 }
 .contact h2{
-    font-size: 48px;
+font-size: 48px;
 letter-spacing: 0px;
 line-height: 60px;
 color: #314584;
@@ -289,7 +271,7 @@ font-family:sans-serif;
 }
 
 .contact .email{
-    font-size: 18px;
+font-size: 18px;
 letter-spacing: 0px;
 line-height: 21px;
 color: #314584;
@@ -300,7 +282,7 @@ height: 60px;
 background-color: #f4fafe;
 }
 .message{
-    font-size: 18px;
+font-size: 18px;
 letter-spacing: 0px;
 line-height: 21px;
 color: #314584;
@@ -310,11 +292,9 @@ font-family:sans-serif;
 .email input{
     width: 100%;
     height: 60px;
-
     background-color: #F4FAFE;
     border: none;
     padding: 0px 20px;
-
     color: #314584;
     font-weight: 600;
     margin-bottom: 15px;
@@ -324,37 +304,30 @@ textarea {
     border: none;
     width: 100%;
     padding: 20px;
-
     margin-top: 15px;
-
     color: #314584;
     font-weight: 600;
 
 }
-  .contact-btn{
-      margin-top: 50px;
-      margin-left:40%;
 
-  }
-.contact-btn a{
-    font-size: 18px;
+.contact-btn {
+font-size: 18px;
 letter-spacing: 0px;
 line-height: 21px;
 color: #ff3946;
 font-weight: 600;
 font-family: sans-serif;
-}
-.btn {
-    border-radius: 20px;
+border-radius: 20px;
 
 }
+
 .foot{
     background-color: #314584;
     width: 100%;
     min-height: 400px;
     text-align: center;
     padding: 50px 0px 0px 0px;
-    justify-content: center;
+    
 
 }
 .foot h5{
@@ -391,3 +364,43 @@ color: #ffffff;
 font-weight: 400;
 font-family: sans-serif;
 }
+ul{
+    list-style: none;
+}
+@media screen  and (max-width:600px){
+
+    .hero h1,p,.hero-btns
+    {
+        text-align: center;
+        justify-content: center;
+       
+    }
+    .service .service-txt,.service-btn,.service-box,.service h2,.service  h3 ,.service-box p
+    {
+        text-align: center;
+        justify-content: center;
+        width:auto;
+    }
+
+    .about h5 ,.about h2,.about p{
+        text-align: center;
+        justify-content: center;
+       
+    }
+
+    .work h2,.work button,.work-box{
+
+        text-align: center;
+        justify-content: center;
+    }
+
+    .blog h5,h2,h6{
+        text-align: center;
+    }
+
+    .contact h5,h2,input,textarea,contact-btn{
+        text-align: center;
+        justify-content: center;
+    }
+}
+
